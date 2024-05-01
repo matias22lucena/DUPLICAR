@@ -1,0 +1,12 @@
+.Bienvenidos{
+    /*background-color :#afa98d;*/
+    text-decoration-line: underline;
+}
+.warnig{
+    color: red;
+    text-decoration:underline;
+}
+body {/*para darle color al fondo*/
+    background: url('/Practica/Imagenes/fondo.jpg') no-repeat center center fixed;
+    background-size: cover;
+  }

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Inscripcion</title>   
+    <link rel="stylesheet" href="formulario2.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/purecss@3.0.0/build/pure-min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        /* Estilos generales */
+
+        /* Estilos para pantallas grandes */
+        @media screen and (min-width: 768px) {
+            /* Agrega aquí tus estilos específicos para pantallas grandes */
+        }
+
+        /* Estilos para tabletas */
+        @media screen and (min-width: 576px) and (max-width: 767px) {
+            /* Agrega aquí tus estilos específicos para tabletas */
+        }
+
+        /* Estilos para dispositivos móviles */
+        @media screen and (max-width: 575px) {
+            /* Agrega aquí tus estilos específicos para dispositivos móviles */
+        }
+    </style>
+
+</head>
+<body>
+    <div><img src="Imagenes/UTN-FRT.jpg" alt="">
+    </div>
+        
+    
+    
+        <h2 class="Bienvenidos">Bienvenidos Por favor rellene los datos </h2>
+    <div>
+        <form action="Formulariook.html" method="get">
+            <div>
+                <label class="nom" for="nombre">Nombre</label>
+                <input  type="text" name="nombre" id="nombre" required/>
+            </div>      
+            <br>      
+            <div>
+                <label for="apellido">Apellido</label>
+                <input type="text" name="apellido" id="apellido" required/>
+            </div>
+            <br>
+            <div>
+                <label for="nacimiento">Fecha De Nacimiento</label>
+                <input type="date" name="nacimiento" id="nacimiento" required/>
+            </div>
+            <br>
+            <div>
+            <label for="tel">Numero de telefono</label>
+            <input type="number" name="tel" id="tel"  required />
+            </div>
+            <br>
+            <div>
+                <label for="email">Correo Electronico</label>
+                <input type="email" name="email" id="email" required/>
+            </div>
+            <br>
+            <button class="pure-button" type="submit">Enviar</button>
+            <br>
+            <h1 class="warnig">COMPLETE ESTE FORMULARIO!!!!!!!</h1>
+        </form>
+    </div>
+</body>
+</html>
